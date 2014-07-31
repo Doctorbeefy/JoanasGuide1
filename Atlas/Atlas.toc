@@ -1,7 +1,7 @@
 ﻿## Interface: 11200
-## Title: Atlas Joana's Guide Suite |cFFFF8080[1.7]|r
+## Title: Joana's Guide Atlas Suite |cFFFF8080[1.8.5]|r
 ## Notes: Instance map browser.
-## Version: 1.8
+## Version: 1.8.5
 ## Author: Bennylava
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## X-OptionsFrame: AtlasOptionsFrame

@@ -3,7 +3,7 @@
    Joana's Guide Atlas Suite, an instance map browser with a built in leveling guide
    Compiled by Bennylava
    Bennylavaed@gmail.com
-   Last Update: 06/07/2014
+   Last Update: 07/30/2014
 
 --]]
 
@@ -1023,33 +1023,23 @@ AtlasINTRO = {
 	INTRO = {
 			ZoneName = "Intro";
 			Location = "Azeroth";
-		_RED.._TAB.._TAB.._TAB.."Welcome To The Joana's Guide Atlas Suite";
+		GREY.."Hello and Welcome to the "..GREN.."Joana's Guide Atlas Suite "..GREY.." this addon was made to create an easy access to ";
+		GREY.."a leveling guide. It also gives players a way to visually see the location on a map while keeping the";
+		GREY.."maps and loot information from the well known atlas addon.";
 		GREY.." ";
+		_RED.."Coming Soon ™";
+		BLUE.."Alliance 30-60";
+		BLUE.."More Alliance Maps";
+		BLUE.."Overlapping Text fix";
+		BLUE.."Removal of Burning Crusade Content";
+		BLUE.."Possible Scrolling Windows (Fewer Pages)";
+		BLUE.."Best In Slot Guides";
 		GREY.." ";
-		GREY.."Hello, I play the Character".._RED.." Bennylava"..GREY.." on the Feenix server"..GREN.." Emerald Dream";
-		GREY.."This Addon was created for an easier way to access the guide.";
-		GREN.."ALL ALLIANCE MAP CREDIT GOES TO Burger of Feenix:Emerald Dream.";
+		GREY.."If any issues are found please report them to the issue tracker";
+		GREN.."https://github.com/Doctorbeefy/JoanasGuide1/issues";
 		GREY.." ";
-		GREY.."For Any Issues, Corrections, Suggestions";
-		GREY.."Visit the Issue Tracker on "..BLUE.."https://github.com/Doctorbeefy/JoanasGuide1";
-		GREY.." ";
-		_RED.."Color Chart";
-		BLUE.."NPC";
-		GREN.."Item "..GREY.."or "..GREN.."Emerald Dream Bugged Quest if # is Green";
-		_RED.."Location"..GREY.." or ".._RED.."Hunter Specific if # is Red";
-		ORNG.."Quest";
-		PURP.."Level";
-		YELO.."On Map";
-		GREY.." ";
-		GREY.._TAB.._TAB.._TAB.._TAB.."A few things you should know before you start leveling";
-		GREY.._TAB.._TAB.."Make sure to kill stuff on your way to the next destination";
-		GREY.._TAB.._TAB.."If you fall behind in levels just run a level appropriate instance";
-		GREY.._TAB.."This Guide works best if started from the beginning";
-		GREY.." ";
-		GREY.." ";		
-		_RED.._TAB.._TAB.._TAB.._TAB.."Coming Soon";
-		BLUE.._TAB.._TAB.._TAB.."Starting Alliance Leveling Guide W/O Maps";
-		BLUE.._TAB.._TAB.._TAB.."Class BIS Guide";
+		GREY.."Brought to you by Bennylava";
+		GREY.."Alliance Maps made by Burger (Feenix:ED)";
 
 
 	};	
@@ -3355,7 +3345,8 @@ AtlasLVX = {
 		j5 = {
 		ZoneName = "10-12";
 		Location = "Dun Morogh";
-		GREY.."59) Go west of ".._RED.."brewnall "..GREY.."and kill "..BLUE.."leper gnomes "..GREY.."until you complete "..ORNG.."Operation Recombobulation "..GREY.."you should hit "..PURP.."9 "..GREY.."getting kills";
+		GREY.."59) Go west of ".._RED.."brewnall "..GREY.."and kill "..BLUE.."leper gnomes "..GREY.."until you complete "..ORNG.."Operation Recombobulation "..GREY.."you ";
+		GREY.."should hit "..PURP.."9 "..GREY.."getting kills";
 		GREY.."60) Go to 24,50 and enter the cave kill "..BLUE.."5 headhunters "..GREY.."and explore the cave for "..ORNG.."Frostmane Hold "..GREY.."To explore it just run in and stay to the right, it will curve left and you can see a raised platform with mobs, get near it to complete exploration";
 		GREY.."61) Die so you end up at ".._RED.."Kharanos"..GREY..".";
 		GREY.."62) Either straight down the steps of the Inn, or N of the GY, turn in "..ORNG.."Frostmane Hold "..GREY.."accept "..ORNG.."The Reports";

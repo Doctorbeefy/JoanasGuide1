@@ -2,7 +2,7 @@
 ## Title: AtlasLoot |cFFFF8080[Joana's Guide Edition]|r
 ## Notes: Shows the possible loot from the bosses.
 ## Author: Daviesh & prevedpalad
-## Version: 1.7
+## Version: 1.84
 ## SavedVariables: AtlasLootOptions, AtlasLootVersion, AtlasLootSavedTooltips
 ## OptionalDeps: Alphamap, AtlasLoader, Telo's LootLink, Telo's LootLink - Enhanced, ItemSync, EquipCompare
 Content\AtlasLootContent.xml

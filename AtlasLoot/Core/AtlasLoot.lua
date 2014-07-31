@@ -2,7 +2,7 @@ local VERSION_MAJOR = "";
 local VERSION_MINOR = "";
 local VERSION_BOSSES = "";
 ATLASLOOT_VERSION = ""..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "1.8";
+ATLASLOOT_CURRENT_ATLAS = "Version 1.8.5";
 
 -- Colours stored for code readability
 local GREY = "|cff999999";

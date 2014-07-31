@@ -3,14 +3,14 @@
    Joana's Guide Atlas Suite, an instance map browser with a built in leveling guide
    Compiled by Bennylava
    Bennylavaed@gmail.com
-   Last Update: 06/07/2014
+   Last Update: 07/30/2014
 
 --]]
 
 
 
 
-ATLAS_VERSION = "1.8";
+ATLAS_VERSION = "Version 1.8.5";
 
 
 local Atlas_Vars_Loaded = nil;
@@ -824,7 +824,7 @@ function Atlas_Refresh()
 	AtlasMap:ClearAllPoints();
 	AtlasMap:SetWidth(512);
 	AtlasMap:SetHeight(512);
-	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 35, -150);
+	AtlasMap:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 0, -137);
 	AtlasMap:SetTexture("Interface\\AddOns\\Atlas\\Images\\"..zoneID);
 	local ZoneNameText = textSource[zoneID]["ZoneName"];
 	if ( AtlasOptions.AtlasAcronyms and textSource[zoneID]["Acronym"] ~= nil) then
@@ -835,7 +835,7 @@ function Atlas_Refresh()
 	AtlasText_Location:SetText(ATLAS_STRING_LOCATION..": "..textSource[zoneID]["Location"]);
 	AtlasText_LevelRange:SetText(ATLAS_STRING_LEVELRANGE..": "..textSource[zoneID]["LevelRange"]);
 	AtlasText_PlayerLimit:SetText(ATLAS_STRING_PLAYERLIMIT..": "..textSource[zoneID]["PlayerLimit"]);
-	for i = 1, 27, 1 do
+	for i = 1, 30, 1 do
 		getglobal("AtlasText_"..i):SetText(textSource[zoneID][i]);
 	end
 end

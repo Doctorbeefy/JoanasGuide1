@@ -3,7 +3,7 @@
    Joana's Guide Atlas Suite, an instance map browser with a built in leveling guide
    Compiled by Bennylava
    Bennylavaed@gmail.com
-   Last Update: 06/07/2014
+   Last Update: 07/30/2014
 
 -->
 
@@ -11,7 +11,7 @@
 ..\FrameXML\UI.xsd">
 	<Frame name="AtlasFrame" toplevel="true" enableMouse="true" movable="true" parent="UIParent" hidden="true">
 		<Size>
-			<AbsDimension x="1150" y="680"/>
+			<AbsDimension x="1200" y="700"/>
 		</Size>
 		<Anchors>
  			<Anchor point="TOPLEFT">
@@ -23,24 +23,24 @@
 		<Frames>
 			<Button name="AtlasFrameCloseButton" inherits="UIPanelCloseButton">
 				<Size>
-					<AbsDimension x="40" y="40"/>
+					<AbsDimension x="50" y="50"/>
 				</Size>
 				<Anchors>
-					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPRIGHT">
+					<Anchor point="TOPRIGHT" relativeTo="AtlasFrame" relativePoint="TOPLEFT">
 						<Offset>
-							<AbsDimension x="-5" y="-40"/>
+							<AbsDimension x="45" y="5"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
 			</Button>
 			<Button name="AtlasFrameLockButton">
 				<Size>
-					<AbsDimension x="40" y="40"/>
+					<AbsDimension x="50" y="50"/>
 				</Size>
 				<Anchors>
-					<Anchor point="RIGHT" relativeTo="AtlasFrameCloseButton" relativePoint="LEFT">
+					<Anchor point="RIGHT" relativeTo="AtlasFrameCloseButton" relativePoint="RIGHT">
 						<Offset>
-							<AbsDimension x="10" y="0"/>
+							<AbsDimension x="25" y="0"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -56,7 +56,7 @@
 			<Button name="AtlasFrameDropDownType" inherits="UIDropDownMenuTemplate">
 				<Layers>
 					<Layer level="BACKGROUND">
-						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_STRING_SELECT_CAT">
+						<FontString name="$parentLabel" inherits="GameFontNormal" text="ATLAS_STRING_SELECT_CAT">
 							<Anchors>
 								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
 									<Offset>
@@ -70,7 +70,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="100" y="-100"/>
+							<AbsDimension x="600" y="-80"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -83,7 +83,7 @@
 			<Button name="AtlasFrameDropDown" inherits="UIDropDownMenuTemplate">
 				<Layers>
 					<Layer level="BACKGROUND">
-						<FontString name="$parentLabel" inherits="GameFontNormalSmall" text="ATLAS_STRING_SELECT_MAP">
+						<FontString name="$parentLabel" inherits="GameFontNormal" text="ATLAS_STRING_SELECT_MAP">
 							<Anchors>
 								<Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT">
 									<Offset>
@@ -108,10 +108,13 @@
 				</Scripts>
 			</Button>
 			<Button name="AtlasFrameOptionsButton" inherits="OptionsButtonTemplate" text="ATLAS_OPTIONS_BUTTON">
+				<Size>
+					<AbsDimension x="75" y="30"/>
+				</Size>
 				<Anchors>
-					<Anchor point="TOPRIGHT">
+					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="-80" y="-50"/>
+							<AbsDimension x="60" y="-5"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -124,9 +127,9 @@
 		</Frames>
 		<Layers>
 			<Layer level="ARTWORK">
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Top">
+				<Texture file="Interface\AddOns\Atlas\Images\mapt">
 					<Size>
-						<AbsDimension x="256" y="256"/>
+						<AbsDimension x="512" y="256"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
@@ -136,93 +139,72 @@
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Left">
-					<Size>
-						<AbsDimension x="64" y="256"/>
-					</Size>
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-256"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Bottom">
-					<Size>
-						<AbsDimension x="256" y="256"/>
-					</Size>
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="0" y="-512"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Bottom2">
-					<Size>
-						<AbsDimension x="512" y="256"/>
-					</Size>
-					<Anchors>
-						<Anchor point="TOPLEFT">
-							<Offset>
-								<AbsDimension x="256" y="-512"/>
-							</Offset>
-						</Anchor>
-					</Anchors>
-				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Top2">
+				<Texture file="Interface\AddOns\Atlas\Images\mapb">
 					<Size>
 						<AbsDimension x="512" y="512"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="256" y="0"/>
+								<AbsDimension x="0" y="-137"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Bottom3">
+				<Texture file="Interface\AddOns\Atlas\Images\chatbl">
 					<Size>
 						<AbsDimension x="512" y="256"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="768" y="-512"/>
+								<AbsDimension x="522" y="-397"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<Texture file="Interface\AddOns\Atlas\Images\AtlasFrame-Top3">
+				<Texture file="Interface\AddOns\Atlas\Images\chattl">
 					<Size>
-						<AbsDimension x="512" y="512"/>
+						<AbsDimension x="128" y="513"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="768" y="0"/>
+								<AbsDimension x="517" y="0"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
 				</Texture>
-				<FontString inherits="GameFontHighlight" text="ATLAS_TITLE">
+				<Texture file="Interface\AddOns\Atlas\Images\chatbr">
+					<Size>
+						<AbsDimension x="129" y="256"/>
+					</Size>
 					<Anchors>
-						<Anchor point="TOP">
+						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-53"/>
+								<AbsDimension x="1014" y="-396"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
-				</FontString>
-				<FontString inherits="GameFontNormalSmall" text="ATLAS_VERSION">
+				</Texture>
+				<Texture file="Interface\AddOns\Atlas\Images\chattr">
+					<Size>
+						<AbsDimension x="512" y="513"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="631" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<FontString inherits="GameFontNormalLarge" text="ATLAS_VERSION">
 					<Color r="0.0" g="9.4" b="0.0"/>
 					<Anchors>
 						<Anchor point="TOPRIGHT">
 							<Offset>
-								<AbsDimension x="-280" y="-58"/>
+								<AbsDimension x="-700" y="-15"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -232,12 +214,12 @@
 					<Anchors>
 						<Anchor point="TOPLEFT">
 							<Offset>
-								<AbsDimension x="560" y="-150"/>
+								<AbsDimension x="10" y="-70"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="AtlasText_Location" inherits="GameFontNormal">
+				<FontString name="AtlasText_Location" inherits="GameFontNormalLarge">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
@@ -246,11 +228,11 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="AtlasText_LevelRange" inherits="GameFontNormal">
+				<FontString name="AtlasText_LevelRange" inherits="GameFontNormalLarge">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-35"/>
+								<AbsDimension x="0" y="-40"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -259,7 +241,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-50"/>
+								<AbsDimension x="-2222220" y="-50"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -268,7 +250,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-80"/>
+								<AbsDimension x="530" y="-80"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -277,7 +259,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-95"/>
+								<AbsDimension x="530" y="-95"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -286,7 +268,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-110"/>
+								<AbsDimension x="530" y="-110"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -295,7 +277,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-125"/>
+								<AbsDimension x="530" y="-125"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -304,7 +286,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-140"/>
+								<AbsDimension x="530" y="-140"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -313,7 +295,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-155"/>
+								<AbsDimension x="530" y="-155"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -322,7 +304,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-170"/>
+								<AbsDimension x="530" y="-170"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -331,7 +313,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-185"/>
+								<AbsDimension x="530" y="-185"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -340,7 +322,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-200"/>
+								<AbsDimension x="530" y="-200"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -349,7 +331,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-215"/>
+								<AbsDimension x="530" y="-215"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -358,7 +340,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-230"/>
+								<AbsDimension x="530" y="-230"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -367,7 +349,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-245"/>
+								<AbsDimension x="530" y="-245"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -376,7 +358,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-260"/>
+								<AbsDimension x="530" y="-260"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -385,7 +367,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-275"/>
+								<AbsDimension x="530" y="-275"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -394,7 +376,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-290"/>
+								<AbsDimension x="530" y="-290"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -403,7 +385,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-305"/>
+								<AbsDimension x="530" y="-305"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -412,7 +394,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-320"/>
+								<AbsDimension x="530" y="-320"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -421,7 +403,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-335"/>
+								<AbsDimension x="530" y="-335"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -430,7 +412,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-350"/>
+								<AbsDimension x="530" y="-350"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -439,7 +421,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-365"/>
+								<AbsDimension x="530" y="-365"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -448,7 +430,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-380"/>
+								<AbsDimension x="530" y="-380"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -457,7 +439,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-395"/>
+								<AbsDimension x="530" y="-395"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -466,7 +448,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-410"/>
+								<AbsDimension x="530" y="-410"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -475,7 +457,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-425"/>
+								<AbsDimension x="530" y="-425"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -484,7 +466,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-440"/>
+								<AbsDimension x="530" y="-440"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -493,7 +475,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-455"/>
+								<AbsDimension x="530" y="-455"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -502,7 +484,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-470"/>
+								<AbsDimension x="530" y="-470"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -511,7 +493,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-485"/>
+								<AbsDimension x="530" y="-485"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -520,7 +502,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-500"/>
+								<AbsDimension x="530" y="-500"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -529,7 +511,7 @@
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="AtlasText_ZoneName" relativePoint="TOPLEFT">
 							<Offset>
-								<AbsDimension x="0" y="-515"/>
+								<AbsDimension x="530" y="-515"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
