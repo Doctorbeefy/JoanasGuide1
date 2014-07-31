@@ -4323,8 +4323,74 @@ AtlasLVX = {
 	AtlasLWB = {	
 	
 		n6 = {
-		ZoneName = "30-40";
-		Location = "Coming Soon";	
+		ZoneName = "30-31";
+		Location = "Hillsbrad Foothills";	
+		GREY.."1) Run into southshore at 49,52 and grab the FP";
+		GREY.."2) Stop at the barn east of the FP, accept Costly Menace";
+		GREY.."3) Go to the house in front of the barn, turn in Southshore SKIP the next part";
+		GREY.."4) Go in front of the Inn, accept Hints of a New Plague";
+		GREY.."5) Go in the Inn, make it your home, then accept Down the Coast";
+		GREY.."6) In front of the town hall, accept Crushridge Bounty";
+		GREY.."7) Go in the town hall, accept Syndicate Assassins";
+		GREY.."8) Go just SW of Southshore and do Down the Coast on the shore, killing murlocs. Turn it in at the";
+		GREY.."Inn when you’re done, accept Farren's Proof pt.1";
+		GREY.."9) Do Farren's Proof pt.1 again on the shore, if I’m not 31 by the time I’m done getting heads, I ";
+		GREY.."grind till I am.";
+		GREY.."10) Go back to the Inn, turn in Farren's Proof pt.1 accept Farren’s Proof pt.2 hand that in just ";
+		GREY.."out front of the Inn, accept Farren’s Proof pt.3 Go back into the Inn, hand it in accept Stormwind ho!";
+		GREY.."11) Go do Stormwind ho! just SE of the dock now, kill the naga along the shore.";
+		GREY.."12) Go back to the Inn hand in Stormwind ho!, accept Reassignment";	
+
+};
+		n7 = {
+		ZoneName = "31-31";
+		Location = "Alterac Mountains";	
+		GREY.."1) Run up into Alterac Mountains near the AV entrance around 64,38 and kill lions for Costly Menace ";
+		GREY.."They’re all along the southern border near AV. I usually get all mine in front and West of AV";
+		GREY.."2) Go east of AV and do Syndicate Assassins at the camp around 55,67. There is a camp close to AV but";
+		GREY.."this one has a quest you can grab near the tents on the table. Clear the camp and touch the ";
+		GREY.."syndicate document, accept Foreboding Plans and Encrypted Letter";
+		GREY.."3) Hearth to Southshore";
+		GREY.."4) Go into the town hall, turn in Syndicate Assassins and Foreboding Plans accept Noble Deaths";
+		GREY.."5) Stop at the house North of the Inn, turn in Encrypted Letter accept Letter to Stormpike";
+		GREY.."6) Go to the barn and turn in Costly Menace";
+		GREY.."7) Fly to Refuge Point";
+
+};
+		n8 = {
+		ZoneName = "31-32";
+		Location = "Arathi Highlands";	
+		GREY.."1) Accept Northfold Manor grind to it at 33,27 I grind here until I’m 32.";
+		GREY.."2) Hearth to Southshore, stable pet, go to Alterac and tame a level 32 Mountain Lion ( the ones you ";
+		GREY.."killed before) for Prowl rank 1 (stealth)";
+		GREY.."3) Die on purpose so you end up in Southshore";
+		GREY.."4) Fly to Refuge point, turn in Northfold Manor Fly to IF";
+		GREY.."5) Go to the hall of explorers at 69,20 in IF accept Reclaimers' Business in Desolace then go turn in";
+		GREY.."Letter to Stormpike accept Further Mysteries";
+		GREY.."6) Accept The Brassbolts Brothers in The Hall of Arms at 72,93 then get new Skills";
+		GREY.."7) Make IF your home at 18,51 Buy some Bloodstone Ore for a quest later in STV. If there is none check";
+		GREY.."the AH in Booty Bay";
+		GREY.."8) Fly to SW";
+		GREY.."9) Go to the Keep at 72,15 and hand in Reassignment";
+		GREY.."10) Go to 39,27 in the Cathedral and hand in Cleansing the Eye";
+		GREY.."11) Fly to Duskwood, then run to 44,66 and go south into STV";
+
+};
+		n9 = {
+		ZoneName = "32-32";
+		Location = "Stranglethorn Vale";	
+		GREY.."1) You should still have the mountain lion out.";
+		GREY.."2) Run to the Rebel Camp at 37,3 its just west after you enter.";
+		GREY.."3) Accept The Second Rebellion and Bad Medicine";
+		GREY.."4) Then Accept Krazek's Cookery";
+		GREY.."5) Go to Nessingway’s at 35,10 and accept Welcome to the Jungle then turn it in behind you. This opens";
+		GREY.."the 3 quest givers here.";
+		GREY.."6) Now Accept Raptor Mastery pt.1 Panther Mastery pt.1 Tiger Mastery pt.1 Don’t accept the page-collecting ";
+		GREY.."quest until you have all the pages.";
+		GREY.."7) Go to 29,8 just West of Nessingway’s and tame a Stranglethorn Tiger for Dash Rank 1. Use this pet until ";
+		GREY.."you get to Booty Bay";
+		GREY.."8) Do Panther Mastery pt.1 & Tiger Mastery pt.1 Tigers are just behind Nessingway’s, and the Panthers are ";
+		GREY.."to the east some but centralized around 41,9";
 
 };
 	};

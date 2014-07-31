@@ -354,7 +354,11 @@ function Atlas_UpdateLevelRanges()
 	AtlasLWA.n4.LevelRange =					"29-30";	
 	AtlasLWA.n5.LevelRange =					"30-30";	
 
-	AtlasLWB.n6.LevelRange =					"30-40";		
+	AtlasLWB.n6.LevelRange =					"30-40";	
+	AtlasLWB.n7.LevelRange =					"30-40";	
+	AtlasLWB.n8.LevelRange =					"30-40";	
+	AtlasLWB.n9.LevelRange =					"30-40";	
+	
 
 	AtlasLWC.q2.LevelRange =					"40-50";		
 
@@ -559,6 +563,9 @@ function Atlas_UpdatePlayerLimits()
 	AtlasLWA.n5.PlayerLimit =					"";	
 	
 	AtlasLWB.n6.PlayerLimit =					"";	
+	AtlasLWB.n7.PlayerLimit =					"";	
+	AtlasLWB.n8.PlayerLimit =					"";	
+	AtlasLWB.n9.PlayerLimit =					"";		
 	
 	AtlasLWC.q2.PlayerLimit =					"";	
 
