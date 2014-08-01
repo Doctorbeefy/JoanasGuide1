@@ -354,10 +354,23 @@ function Atlas_UpdateLevelRanges()
 	AtlasLWA.n4.LevelRange =					"29-30";	
 	AtlasLWA.n5.LevelRange =					"30-30";	
 
-	AtlasLWB.n6.LevelRange =					"30-40";	
-	AtlasLWB.n7.LevelRange =					"30-40";	
-	AtlasLWB.n8.LevelRange =					"30-40";	
-	AtlasLWB.n9.LevelRange =					"30-40";	
+	AtlasLWB.n6.LevelRange =					"30-31";	
+	AtlasLWB.n7.LevelRange =					"31-31";	
+	AtlasLWB.n8.LevelRange =					"31-32";	
+	AtlasLWB.n9.LevelRange =					"32-32";
+	AtlasLWB.o1.LevelRange =					"32-33";
+	AtlasLWB.o2.LevelRange =					"33-35";
+	AtlasLWB.o3.LevelRange =					"33-35 (Part 2)";
+	AtlasLWB.o4.LevelRange =					"33-35 (Part 3)";
+	AtlasLWB.o5.LevelRange =					"35-36";
+	AtlasLWB.o6.LevelRange =					"35-36 (Part 2)";
+	AtlasLWB.o7.LevelRange =					"36-37";
+	AtlasLWB.o8.LevelRange =					"37-38";
+	AtlasLWB.o9.LevelRange =					"37-38 (Part 2)";
+	AtlasLWB.p1.LevelRange =					"38-38";
+	AtlasLWB.p2.LevelRange =					"38-38 (Part 2)";
+	AtlasLWB.p3.LevelRange =					"38-40";
+	AtlasLWB.p4.LevelRange =					"38-40 (Part 2)";
 	
 
 	AtlasLWC.q2.LevelRange =					"40-50";		
@@ -566,6 +579,20 @@ function Atlas_UpdatePlayerLimits()
 	AtlasLWB.n7.PlayerLimit =					"";	
 	AtlasLWB.n8.PlayerLimit =					"";	
 	AtlasLWB.n9.PlayerLimit =					"";		
+	AtlasLWB.o1.PlayerLimit =					"";
+	AtlasLWB.o2.PlayerLimit =					"";
+	AtlasLWB.o3.PlayerLimit =					"";
+	AtlasLWB.o4.PlayerLimit =					"";
+	AtlasLWB.o5.PlayerLimit =					"";
+	AtlasLWB.o6.PlayerLimit =					"";
+	AtlasLWB.o7.PlayerLimit =					"";
+	AtlasLWB.o8.PlayerLimit =					"";
+	AtlasLWB.o9.PlayerLimit =					"";
+	AtlasLWB.p1.PlayerLimit =					"";
+	AtlasLWB.p2.PlayerLimit =					"";
+	AtlasLWB.p3.PlayerLimit =					"";
+	AtlasLWB.p4.PlayerLimit =					"";
+	
 	
 	AtlasLWC.q2.PlayerLimit =					"";	
 
