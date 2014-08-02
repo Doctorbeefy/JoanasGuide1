@@ -373,7 +373,31 @@ function Atlas_UpdateLevelRanges()
 	AtlasLWB.p4.LevelRange =					"38-40 (Part 2)";
 	
 
-	AtlasLWC.q2.LevelRange =					"40-50";		
+	AtlasLWC.p5.LevelRange =					"40-41";
+	AtlasLWC.p6.LevelRange =					"40-41 (Part 2)";
+	AtlasLWC.p7.LevelRange =					"41-41";
+	AtlasLWC.p8.LevelRange =					"41-41 (Part 2)";
+	AtlasLWC.p9.LevelRange =					"41-42";	
+	AtlasLWC.q1.LevelRange =					"42-43";	
+	AtlasLWC.q2.LevelRange =					"42-43 (Part 2)";	
+	AtlasLWC.q3.LevelRange =					"43-43";	
+	AtlasLWC.q4.LevelRange =					"43-43 (Part 2)";	
+	AtlasLWC.q5.LevelRange =					"43-45";	
+	AtlasLWC.q6.LevelRange =					"43-45 (Part 2)";	
+	AtlasLWC.q7.LevelRange =					"45-46";	
+	AtlasLWC.q8.LevelRange =					"46-47";	
+	AtlasLWC.q9.LevelRange =					"46-47 (Part 2)";	
+	AtlasLWC.r1.LevelRange =					"47-47";	
+	AtlasLWC.r2.LevelRange =					"47-47 (Part 2)";	
+	AtlasLWC.r3.LevelRange =					"47-48";	
+	AtlasLWC.r4.LevelRange =					"47-48 (Part 2)";	
+	AtlasLWC.r5.LevelRange =					"48-48";	
+	AtlasLWC.r6.LevelRange =					"48-49";	
+	AtlasLWC.r7.LevelRange =					"49-49";	
+	AtlasLWC.r8.LevelRange =					"49-50";	
+	AtlasLWC.r9.LevelRange =					"49-50 (Part 2)";	
+	
+	
 
 	AtlasLWD.s8.LevelRange =					"50-60";		
 	
@@ -592,9 +616,31 @@ function Atlas_UpdatePlayerLimits()
 	AtlasLWB.p2.PlayerLimit =					"";
 	AtlasLWB.p3.PlayerLimit =					"";
 	AtlasLWB.p4.PlayerLimit =					"";
-	
-	
+		
+	AtlasLWC.p5.PlayerLimit =					"";
+	AtlasLWC.p6.PlayerLimit =					"";
+	AtlasLWC.p7.PlayerLimit =					"";
+	AtlasLWC.p8.PlayerLimit =					"";
+	AtlasLWC.p9.PlayerLimit =					"";	
+	AtlasLWC.q1.PlayerLimit =					"";	
 	AtlasLWC.q2.PlayerLimit =					"";	
+	AtlasLWC.q3.PlayerLimit =					"";	
+	AtlasLWC.q4.PlayerLimit =					"";	
+	AtlasLWC.q5.PlayerLimit =					"";	
+	AtlasLWC.q6.PlayerLimit =					"";	
+	AtlasLWC.q7.PlayerLimit =					"";	
+	AtlasLWC.q8.PlayerLimit =					"";	
+	AtlasLWC.q9.PlayerLimit =					"";	
+	AtlasLWC.r1.PlayerLimit =					"";		
+	AtlasLWC.r2.PlayerLimit =					"";		
+	AtlasLWC.r3.PlayerLimit =					"";		
+	AtlasLWC.r4.PlayerLimit =					"";		
+	AtlasLWC.r5.PlayerLimit =					"";		
+	AtlasLWC.r6.PlayerLimit =					"";		
+	AtlasLWC.r7.PlayerLimit =					"";		
+	AtlasLWC.r8.PlayerLimit =					"";		
+	AtlasLWC.r9.PlayerLimit =					"";		
+	
 
 	AtlasLWD.s8.PlayerLimit =					"";	
 	
