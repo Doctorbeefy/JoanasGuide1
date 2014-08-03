@@ -1732,13 +1732,11 @@ AtlasLVL = {
 		_RED.."19) "..GREY.."tame a "..BLUE.."Ghostpaw Alpha "..GREY.."(lvl 27) to get *Bite rank 4*, then abandon him";
 		_RED.."20) "..GREY.."tame an "..BLUE.."Elder Ashenvale Bear "..GREY.."(lvl 25-26) to get *Claw rank 4*, then abandon him";
 		_RED.."21) "..GREY.."get "..BLUE.."cat "..GREY.."back out.";
-		GREY.."22) Accept "..ORNG.."Destroy the Legion "..GREY.."(in ".._RED.."Splintertree Post"..GREY..").";
 		GREY.."23) Go do "..ORNG.."Ordanus "..GREY.."(61.52) fight your way to him, just kill the guy, grab his "..GREN.."head"..GREY..".";
 		GREY.."24) Go do: "..ORNG.."Satyr Horns "..GREY.."(done at the ".._RED.."Night Run"..GREY..", 67.53)(entrance to the area is around 64.42).";
-		GREY.."25) Then do: "..ORNG.."Destroy the Legion "..GREY.."(at 82.69) you should find an item called "..GREN.."Diabolical Plans"..GREY..", which ";
-		GREY.."starts "..ORNG.."Diabolical Plans "..GREY.."while doing this quest.";
-		GREY.."26) Run back to ".._RED.."Splintertree Post"..GREY..". Turn in "..ORNG.."Satyr Horns"..GREY..", "..ORNG.."Destroy the Legion "..GREY.."and "..ORNG.."Diabolical Plans"..GREY..".";
+		GREY.."26) Run back to ".._RED.."Splintertree Post"..GREY..". Turn in "..ORNG.."Satyr Horns"..GREY..".";
 		GREY.."27) Fly to ".._RED.."Stonetalon Mountains"..GREY..".";
+		_RED.." YOU MAY WANT TO GRIND A BIT HERE OR RUN AN INSTANCE";
 	};
 
 	c3 = {
