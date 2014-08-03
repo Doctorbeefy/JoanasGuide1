@@ -398,8 +398,35 @@ function Atlas_UpdateLevelRanges()
 	AtlasLWC.r9.LevelRange =					"49-50 (Part 2)";	
 	
 	
-
-	AtlasLWD.s8.LevelRange =					"50-60";		
+	AtlasLWD.s1.LevelRange =					"50-51";
+	AtlasLWD.s2.LevelRange =					"50-51 (Part 2)";
+	AtlasLWD.s3.LevelRange =					"50-51 (Part 3)";
+	AtlasLWD.s4.LevelRange =					"50-51 (Part 4)";
+	AtlasLWD.s5.LevelRange =					"51-52";
+	AtlasLWD.s6.LevelRange =					"51-52 (Part 2)";
+	AtlasLWD.s7.LevelRange =					"52-52";
+	AtlasLWD.s8.LevelRange =					"53-54";
+	AtlasLWD.s9.LevelRange =					"53-54 (Part 2)";
+	AtlasLWD.t1.LevelRange =					"53-54 (Part 3)";
+	AtlasLWD.t2.LevelRange =					"54-54";
+	AtlasLWD.t3.LevelRange =					"54-54 (Part 2)";
+	AtlasLWD.t4.LevelRange =					"54-54 (Part 3)";
+	AtlasLWD.t5.LevelRange =					"54-55";
+	AtlasLWD.t6.LevelRange =					"54-55 (Part 2)";
+	AtlasLWD.t7.LevelRange =					"55-56";
+	AtlasLWD.t8.LevelRange =					"55-56 (Part 2)";
+	AtlasLWD.t9.LevelRange =					"56-56";
+	AtlasLWD.u1.LevelRange =					"56-56 (Part 2)";
+	AtlasLWD.u2.LevelRange =					"56-56 (Part 3)";
+	AtlasLWD.u3.LevelRange =					"56-57";
+	AtlasLWD.u4.LevelRange =					"56-57 (Part 2)";
+	AtlasLWD.u5.LevelRange =					"56-57 (Part 3)";
+	AtlasLWD.u6.LevelRange =					"57-58";
+	AtlasLWD.u7.LevelRange =					"58-59";
+	AtlasLWD.u8.LevelRange =					"58-59 (Part 2)";
+	AtlasLWD.u9.LevelRange =					"59-60";
+	AtlasLWD.v1.LevelRange =					"59-60 (Part 2)";
+	
 	
 
 	
@@ -641,9 +668,34 @@ function Atlas_UpdatePlayerLimits()
 	AtlasLWC.r8.PlayerLimit =					"";		
 	AtlasLWC.r9.PlayerLimit =					"";		
 	
-
+	AtlasLWD.s1.PlayerLimit =					"";	
+	AtlasLWD.s2.PlayerLimit =					"";		
+	AtlasLWD.s3.PlayerLimit =					"";	
+	AtlasLWD.s4.PlayerLimit =					"";	
+	AtlasLWD.s5.PlayerLimit =					"";	
+	AtlasLWD.s6.PlayerLimit =					"";	
+	AtlasLWD.s7.PlayerLimit =					"";	
 	AtlasLWD.s8.PlayerLimit =					"";	
-	
+	AtlasLWD.s9.PlayerLimit =					"";	
+	AtlasLWD.t1.PlayerLimit =					"";	
+	AtlasLWD.t2.PlayerLimit =					"";	
+	AtlasLWD.t3.PlayerLimit =					"";	
+	AtlasLWD.t4.PlayerLimit =					"";	
+	AtlasLWD.t5.PlayerLimit =					"";	
+	AtlasLWD.t6.PlayerLimit =					"";	
+	AtlasLWD.t7.PlayerLimit =					"";	
+	AtlasLWD.t8.PlayerLimit =					"";	
+	AtlasLWD.t9.PlayerLimit =					"";	
+	AtlasLWD.u1.PlayerLimit =					"";	
+	AtlasLWD.u2.PlayerLimit =					"";	
+	AtlasLWD.u3.PlayerLimit =					"";	
+	AtlasLWD.u4.PlayerLimit =					"";	
+	AtlasLWD.u5.PlayerLimit =					"";	
+	AtlasLWD.u6.PlayerLimit =					"";	
+	AtlasLWD.u7.PlayerLimit =					"";	
+	AtlasLWD.u8.PlayerLimit =					"";	
+	AtlasLWD.u9.PlayerLimit =					"";	
+	AtlasLWD.v1.PlayerLimit =					"";		
 	
 end
 
