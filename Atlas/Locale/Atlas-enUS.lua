@@ -1600,7 +1600,7 @@ AtlasLVL = {
 		ZoneName = "22-23";
 		Location = "Southern Barrens";
 		GREY.."01) Fly to ".._RED.."CT"..GREY..".";
-		GREY.."02) Turn in "..ORNG.."Jorn Skyseer "..GREY.."... accept "..ORNG.."Ishamuhale and Melor "..GREY.."Sends Word";
+		GREY.."02) Turn in "..ORNG.."Jorn Skyseer "..GREY.."... accept "..ORNG.."Ishamuhale "..GREY.."and "..ORNG.."Melor Sends Word";
 		GREY.."03) Make ".._RED.."CT "..GREY.."your home.";
 		GREY.."04) I give "..GREN.."bloodshards "..GREY.."to the "..BLUE.."gnoll "..GREY.."in the cage to get increased agility/spirit.";
 		GREY.."05) Run south and keep an eye out for the mob named "..BLUE.."Owatanka "..GREY.."(around 45.62), he drops";
@@ -1710,7 +1710,7 @@ AtlasLVL = {
 		GREY.."which starts: "..ORNG.."The Befouled Element"..GREY..".";
 		GREY.."09) Kill "..BLUE.."Ursangous"..GREY..", (around 42.67) "..GREN.."Ursangous's Paw "..GREY.."("..ORNG.."Ashenvale hunt"..GREY..")";
 		GREY.."10) Kill "..BLUE.."Shadumbra "..GREY.."(around 56.54) "..GREN.."Shadumbra's Head "..GREY.."(".._RED.."Ashenvale hunt"..GREY..")";
-		GREY.."11) "..ORNG.."The sacred Flame "..GREY.."first find a "..BLUE.."phial "..GREY.."killing the "..BLUE.."dryads "..GREY.."at 61.52, then fill at the moonwell 60.72";
+		GREY.."11) "..ORNG.."The Sacred Flame "..GREY.."first find a "..BLUE.."phial "..GREY.."killing the "..BLUE.."dryads "..GREY.."at 61.52, then fill at the moonwell 60.72";
 		GREY.."12) "..GREN.."Hearth "..GREY.."to ".._RED.."Splintertree Post "..GREY.."to turn in "..ORNG.."Stonetalon Standstill"..GREY..", "..ORNG.."The Befouled Element "..GREY.."accept"; 
 		ORNG.."Je'neu of the Earthen Ring"..GREY..", "..ORNG.."Torek's Assault "..GREY.."and all three of the "..ORNG.."Ashenvale Hunt "..GREY.."quests, then accept";
 		GREY.."and complete "..ORNG.."The Hunt Completed"..GREY..".";
@@ -1723,8 +1723,8 @@ AtlasLVL = {
 	};
 
 	c2 = {
-		ZoneName = "26-28";
-		Location = "Ashenvale (Part 2)";
+		ZoneName = "26-28(Part 2)";
+		Location = "Ashenvale";
 		GREY.."16) Once they are both completed, go turn in "..ORNG.."Between a Rock and a Thistlefur "..GREY.."and "..ORNG.."Troll Charm ";
 		GREY.."back at the ".._RED.."Zoram Strand"..GREY..", then "..GREN.."hearth "..GREY.."back to ".._RED.."Splintertree Post"..GREY..". Turn in "..ORNG.."Freedom to Ruul"..GREY.."."; 
 		GREY.."17) If not "..PURP.."level 27 "..GREY.."grind till it.";
@@ -1742,6 +1742,7 @@ AtlasLVL = {
 	c3 = {
 		ZoneName = "28-28";
 		Location = "Stonetalon Mountains";
+		GREN.."Fly"..GREY.." to Stonetalon Mountains";
 		GREY.."01) Turn in "..ORNG.."Ordanus"..GREY..". I SKIP "..ORNG.."The Den.";
 		GREY.."02) Make ".._RED.."Sun Rock Retreat "..GREY.."your home.";
 		GREY.."03) Accept and do "..ORNG.."Bloodfury Bloodline"..GREY..", go kill "..BLUE.."Bloodfury Ripper "..GREY.."(at 30.63) grind mobs along the way,";
@@ -1776,9 +1777,7 @@ AtlasLVL = {
 		GREY.."17) "..ORNG.."Arikara "..GREY.."(done up at 37.35)";
 		GREY.."18) "..ORNG.."Wanted - Arnak Grimtotem "..GREY.."(he is up at 38.27)";
 		GREY.."19) "..ORNG.."Free at Last "..GREY.."(escort quest starts up at 38.27)";
-		GREY.."20) Go to ".._RED.."Whitereach Post "..GREY.."(21.32), turn in "..ORNG.."Arikara"..GREY..", "..ORNG.."Homeward Bound "..GREY..". accept";
-		ORNG.."A Dip in the Moonwell"..GREY..".";
-		GREY.."21) Go do: "..ORNG.."A Dip in the Moonwell "..GREY.."(the "..GREN.."control console "..GREY.."is at 9.18)";
+		GREY.."20) Go to ".._RED.."Whitereach Post "..GREY.."(21.32), turn in "..ORNG.."Arikara"..GREY..", "..ORNG.."Homeward Bound "..GREY..".";
 		GREY.."22) You should be "..PURP.."level 29"..GREY..", if not grind to "..PURP.."level 29"..GREY..", I grind away at "..BLUE.."centuars around ".._RED.."Camp E'Thok"; 
 		GREY.."23) Then do "..ORNG.."Hypercapacitor Gizmo (Elite) "..GREY.."kill mobs around the cage, at 22.24, free him";
 		GREY.."24) Kill the "..BLUE.."Galak Messenger"..GREY..", he drops "..GREN.."Assassination Note "..GREY.."which starts "..ORNG.."Assassination Plot"..GREY..", Turn in.";
@@ -1787,10 +1786,10 @@ AtlasLVL = {
 	c5 = {
 		ZoneName = "28-30 (Part 2)";
 		Location = "Thousand Needles";
-		GREY.."Also turn in "..ORNG.."Hypercapacitor Gizmo "..GREY.."and "..ORNG.."A Dip in the Moonwell"..GREY..". accept "..ORNG.."Testing the Tonic"..GREY..".";
+		GREY.."Also turn in "..ORNG.."Hypercapacitor Gizmo "..GREY..".";
 		GREY.."25) Then do: "..ORNG..""..ORNG.."Protect Kanati Greycloud"..GREY..".";
 		GREY.."26) If you are not at least 4 bars from "..PURP.."level 30"..GREY..", grind until you are. "..GREN.."hearth "..GREY.."back to ".._RED.."Freewind Post"..GREY..".";
-		GREY.."27) Turn in "..ORNG.."Free at Last"..GREY..", "..ORNG.."Wanted - Arnak Grimtotem"..GREY..", "..ORNG.."Grimtotem Spying "..GREY.."and "..ORNG.."Testing the Tonic"..GREY..".";
+		GREY.."27) Turn in "..ORNG.."Free at Last"..GREY..", "..ORNG.."Wanted - Arnak Grimtotem"..GREY..", "..ORNG.."Grimtotem Spying "..GREY..".";
 		GREY.."28) NOTE: I skip "..ORNG.."Test of Endurance"..GREY..".";
 		GREY.."29) Fly to ".._RED.."Orgrimmar"..GREY..".";
 		GREY.."30) Make ".._RED.."Orgrimmar "..GREY.."your home.";
@@ -1815,7 +1814,7 @@ AtlasLV = {
 	};
 
 	c7 = {
-		ZoneName = "30-30";
+		ZoneName = "30-30 (Part 2)";
 		Location = "Arathi Highlands";
 		GREY.."01) Run to ".._RED.."Hammerfall "..GREY.."(at 73.36)";
 		GREY.."02) Accept "..ORNG.."Hammerfall"..GREY..".";

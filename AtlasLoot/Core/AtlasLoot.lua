@@ -715,7 +715,7 @@ function AtlasLoot_SetItemInfoFrame(pFrame)
         if(pFrame==AtlasFrame and AtlasFrame) then
             AtlasLootItemsFrame:ClearAllPoints();
             AtlasLootItemsFrame:SetParent(AtlasFrame);
-            AtlasLootItemsFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 35, -150);
+            AtlasLootItemsFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 0, -135);
         else
             AtlasLootItemsFrame:ClearAllPoints();
             AtlasLootItemsFrame:SetParent(pFrame[2]);
@@ -725,7 +725,7 @@ function AtlasLoot_SetItemInfoFrame(pFrame)
     elseif ( AtlasFrame ) then
         AtlasLootItemsFrame:ClearAllPoints();
         AtlasLootItemsFrame:SetParent(AtlasFrame);
-        AtlasLootItemsFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 35, -150);
+        AtlasLootItemsFrame:SetPoint("TOPLEFT", "AtlasFrame", "TOPLEFT", 0, -135);
     else
         AtlasLootItemsFrame:ClearAllPoints();
         AtlasLootItemsFrame:SetParent(UIParent);
