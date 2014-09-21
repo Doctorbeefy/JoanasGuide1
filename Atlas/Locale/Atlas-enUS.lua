@@ -1891,26 +1891,26 @@ AtlasLV = {
 		GREY.."05) Then go to ".._RED.."Ghost Walker Post "..GREY.."(56.59)";
 		GREY.."06) Turn in "..ORNG.."The Kolkar of Desolace"..GREY..". Accept "..ORNG.."Khan Dez'hepah"..GREY..".";
 		GREY.."07) Accept "..ORNG.."Gelkis Alliance "..GREY.."(this is the one you should choose to do).  Skip "..ORNG.."Magram Alliance"..GREY..".";
-		GREY.."08) Turn in "..ORNG.."Alliance Relations"..GREY..". Accept "..ORNG.."Alliance Relations part2"..GREY..". Accept "..GREY.."Befouled by Satyr"..GREY..".";
+		GREY.."08) Turn in "..ORNG.."Alliance Relations"..GREY..". Accept "..ORNG.."Alliance Relations part2"..GREY..". Accept "..ORNG.."Befouled by Satyr"..GREY..".";
 		GREY.."09) Turn in "..ORNG.."The Corrupter"..GREY..". Accept "..ORNG.."The Corrupter part2"..GREY..".";
 		GREY.."10) Turn in "..ORNG.."Alliance Relations part2"..GREY..". Accept "..ORNG.."The Burning of Spirits"..GREY..".";
 		GREY.."11) Accept "..ORNG.."Catch of the Day"..GREY..".";
-		GREY.."12) Do in the following order:";
-		GREY.."13) "..ORNG.."Befouled by Satyr "..GREY.."(75.22)  (Keep step #13 in mind)";
-		GREY.."14) "..ORNG.."The Corrupter Part2 "..GREY.."(collect a "..GREN.."Shadowstalker Scalp "..GREY.."from a "..BLUE.."Hatefury shadowstalker"..GREY..")";
-		GREY.."15) "..ORNG.."Khan Dez'hepah "..GREY.."(73.48)";
-		GREY.."16) "..ORNG.."Gelkis Alliance "..GREY.."(68.71)";
-		GREY.."17) Go back to ".._RED.."Ghost Walker Post "..GREY.."(56.59), and turn in "..ORNG.."Khan Dez'hepah"..GREY..". Accept "..ORNG.."Centaur Bounty"..GREY..". Turn";
+		GREY.."Do in the following order:";
+		GREY.."12) "..ORNG.."Befouled by Satyr "..GREY.."(75.22)  (Keep step #13 in mind)";
+		GREY.."13) "..ORNG.."The Corrupter Part2 "..GREY.."(collect a "..GREN.."Shadowstalker Scalp "..GREY.."from a "..BLUE.."Hatefury shadowstalker"..GREY..")";
+		GREY.."14) "..ORNG.."Khan Dez'hepah "..GREY.."(73.48)";
+		GREY.."15) "..ORNG.."Gelkis Alliance "..GREY.."(68.71)";
+		GREY.."16) Go back to ".._RED.."Ghost Walker Post "..GREY.."(56.59), and turn in "..ORNG.."Khan Dez'hepah"..GREY..". Accept "..ORNG.."Centaur Bounty"..GREY..". Turn";
 		GREY.."in "..ORNG.."Befouled by Satyr"..GREY..". Turn in "..ORNG.."The Corrupter Part2"..GREY..". Accept "..ORNG.."The Corrupter Part3"..GREY..".";
-		GREY.."18) Then run to ".._RED.."Shadowprey Village "..GREY.."(stopping along the way to turn this in: "..ORNG.."Gelkis Alliance "..GREY.."at 36.79)";
+		GREY.."17) Then run to ".._RED.."Shadowprey Village "..GREY.."(stopping along the way to turn this in: "..ORNG.."Gelkis Alliance "..GREY.."at 36.79)";
 		GREY.."Accept "..ORNG.."Stealing Supplies"..GREY..".";
-		GREY.."19) Accept all quests at ".._RED.."Shadowprey Village "..GREY.."(at 24.71), which include:  "..ORNG.."Hunting in Stranglethorn"..GREY..".";
+		GREY.."18) Accept all quests at ".._RED.."Shadowprey Village "..GREY.."(at 24.71), which include:  "..ORNG.."Hunting in Stranglethorn"..GREY..".";
 		ORNG.."Hand of Iruxos"..GREY..", "..ORNG.."Clam Bait"..GREY..", and "..ORNG.."Other Fish to Fry"..GREY..".";
-		GREY.."20) Make ".._RED.."Shadowprey Village "..GREY.."your home.";
-		GREY.."21) Then do:";
-		GREY.."22) go in the water and collect "..GREN.."10 Shellfish "..GREY.."(from the Shellfish traps)";
-		GREY.."23) turn those in for "..GREN.."2 Bloodbelly Fish"..GREY..".";
-		GREY.."24) Travel up the water (collecting "..GREN.."Soft-shelled Clam Meat "..GREY.."for the quest "..ORNG.."Clam Bait "..GREY.."along the way)";		
+		GREY.."19) Make ".._RED.."Shadowprey Village "..GREY.."your home.";
+		GREY.."Then do:";
+		GREY.."21) go in the water and collect "..GREN.."10 Shellfish "..GREY.."(from the Shellfish traps)";
+		GREY.."22) turn those in for "..GREN.."2 Bloodbelly Fish"..GREY..".";
+		GREY.."23) Travel up the water (collecting "..GREN.."Soft-shelled Clam Meat "..GREY.."for the quest "..ORNG.."Clam Bait "..GREY.."along the way)";		
 	};
 	
 	d2 = {
@@ -1941,17 +1941,17 @@ AtlasLV = {
 		GREY.."45) Then "..ORNG.."Centaur Bounty "..GREY.."and "..ORNG.."Stealing Supplies "..GREY.."(70.74)";
 		GREY.."46) Then go turn in "..ORNG.."Centaur Bounty "..GREY.."(56.59)";
 		GREY.."47) Then turn in "..ORNG.."Bone Collector "..GREY.."(62.38)";
-		GREY.."48) "..GREN.."Hearth "..GREY.."to ".._RED.."Shadowprey Village"..GREY..".";
-		_RED.."49) "..GREY.."stable pet";		
+		GREY.."48) "..GREN.."Hearth "..GREY.."to ".._RED.."Shadowprey Village"..GREY..". Hunters - ".._RED.."Stable Pet";
+		GREY.."50) Turn in all quests there, which are: "..ORNG.."Hand of Iruxos"..GREY..", "..ORNG.."Other Fish to Fry "..GREY.."and "..ORNG.."Clam Bait";
+		GREY.."51) You should be "..PURP.."level 34 "..GREY.."now for sure.";
+		GREY.."52) Turn in "..ORNG.."Stealing Supplies "..GREY.."(36.79) . i SKIP "..ORNG.."Ongeku";
+		_RED.."53) "..GREY.."go tame a "..BLUE.."Scorpashi Lasher "..GREY.."(lvl 34) to get *Claw rank 5*";		
 	};
 
 	d3 = {
 		ZoneName = "32-34 (Part 3)";
 		Location = "Desolace";
-		GREY.."50) Turn in all quests there, which are: "..ORNG.."Hand of Iruxos"..GREY..", "..ORNG.."Other Fish to Fry "..GREY.."and "..ORNG.."Clam Bait";
-		GREY.."51) You should be "..PURP.."level 34 "..GREY.."now for sure.";
-		GREY.."52) Turn in "..ORNG.."Stealing Supplies "..GREY.."(36.79) . i SKIP "..ORNG.."Ongeku";
-		_RED.."53) "..GREY.."go tame a "..BLUE.."Scorpashi Lasher "..GREY.."(lvl 34) to get *Claw rank 5*";
+
 		GREY.."54) Fly to ".._RED.."CT "..GREY.."(In the ".._RED.."Barrens"..GREY.."). (the flight master is on the docks in ".._RED.."Shadowprey Village"..GREY..")";
 		GREY.."55) Once at ".._RED.."CT"..GREY..", run south-east into ".._RED.."Dust Wallowmarsh "..GREY.."(51.79 in the ".._RED.."Barrens"..GREY..").";
 		GREY.."56) Collect the 3 quest-objects at the ".._RED.."Shady Rest Inn";
