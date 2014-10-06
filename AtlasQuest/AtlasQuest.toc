@@ -1,0 +1,18 @@
+## Interface: 11200
+## Title: Joana's Quest|r
+## Notes: Shows the Quests for the instance.
+## Author: Bennylava
+## Version: 3.20.56
+## X-eMail: Bennylavaed@gmail.com
+## X-Website: 
+## X-Category: MYADDONS_CATEGORY_MAP
+## X-Date: 8/12/2006
+## X-Help: AtlasQuestHelp
+## RequiredDeps:
+## OptionalDeps: Atlasloot, Atlas, AlphaMap, myAddOns
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter:
+## SavedVariables: AtlasQuest_Options,
+## Dependencies:
+AtlasQuest_InsideFrame.xml
+AtlasQuest.xml

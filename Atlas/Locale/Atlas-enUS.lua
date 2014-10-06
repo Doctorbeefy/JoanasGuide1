@@ -1978,7 +1978,7 @@ AtlasLV = {
 		GREY.."03) Then do the following:";
 		GREY.."04) Fly to ".._RED.."Grom'gol"..GREY..". Your Questlog Might get overfilled here, run some then pick up the rest.";
 		GREY.."05) Grab ALL quests in ".._RED.."grom'gol"..GREY..": "..ORNG.."The Defense of Grom'gol"..GREY..", "..ORNG.."Mok'thardin's Enchantment"..GREY..",";
-		ORNG.."Bloodscalp Insight"..GREY..", "..ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane"..GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
+		ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane"..GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
 		_RED.."06) Get new hunter spells/abilities.";
 		_RED.."07) "..GREY.."go tame a "..BLUE.."Stranglethorn Tiger "..GREY.."to get *Dash rank 1*";
 		_RED.."08) "..GREY.."then, this is the main pet i use for the rest of the game.";
@@ -1988,15 +1988,15 @@ AtlasLV = {
 		GREY.."all the pages, mail them back to your main. Now go complete these quests:";
 		GREY.."10) "..ORNG.."Singing Blue Shards "..GREY.."(25.19)";
 		GREY.."11) "..ORNG.."Tiger Mastery "..GREY.."("..BLUE.."Elder Stranglethorn Tigers"..GREY..") (31.19)";
-		GREY.."12) "..ORNG.."Bloodscalp Ears along "..GREY.."with "..ORNG.."Bloodscalp Insight";
+		GREY.."12) "..ORNG.."Bloodscalp Ears";
 		GREY.."13) "..ORNG.."Hunt for Yenniku";
 		GREY.."14) "..ORNG.."Bloody Bone Necklaces "..GREY.."(you don't have to finish all of this now)";
 		GREY.."15) "..ORNG.."Raptor Mastery "..GREY.."("..BLUE.."Lashtail Raptors"..GREY..")";
 		GREY.."16) "..ORNG.."The Defense of Grom'gol";
 		GREY.."17) Once all those are done (besides "..ORNG.."Bloody Bone Necklaces"..GREY.."), go to ".._RED.."Grom'gol"..GREY..".";
 		GREY.."18) Turn in "..ORNG.."Hunt for Yenniku"..GREY..". Accept "..ORNG.."Headhunting";
-		GREY.."19) Turn in "..ORNG.."The Defense of Grom'gol"..GREY..". Accept "..ORNG.."The Defense of Grom'gol part2"..GREY..".  Also turn in";
-		ORNG.."Bloodscalp Insight"..GREY..". Accept "..ORNG.."An Unusual Patron"..GREY..".";		
+		GREY.."19) Turn in "..ORNG.."The Defense of Grom'gol"..GREY..". Accept "..ORNG.."The Defense of Grom'gol part2";
+
 	};
 	
 	d5 = {
@@ -2005,7 +2005,6 @@ AtlasLV = {
 		GREY.."20) Should be "..PURP.."lvl 35 "..GREY.."now, either way buy "..PURP.."lvl 35 "..GREN.."food/water/repair "..GREY.."(so that you are prepared for when";
 		GREY.."you do turn "..PURP.."level 35"..GREY.."), then go do in the following order:";
 		GREY.."21) "..ORNG.."Headhunting "..GREY.."along with finishing up "..ORNG.."Bloody Bone Necklaces "..GREY.."(21.14)";
-		GREY.."22) "..ORNG.."An Unusual Patron "..GREY.."(the altar is at 19.22)";
 		GREY.."23) "..ORNG.."The Vile Reef "..GREY.."along with "..ORNG.."Encrusted Tail Fins "..GREY.."(24.24) Use a "..GREN.."breath potion "..GREY.."if you can.";
 		GREY.."24) Then go to ".._RED.."Nesingwary's Expedition "..GREY.."(35.10). turn in ALL quests, accept all new ones"; 
 		GREY.."(except "..ORNG.."The Green Hills of Stranglethorn"..GREY..").  Then go do:";
@@ -2017,7 +2016,7 @@ AtlasLV = {
 		GREY.."29) Head up north and turn in "..ORNG.."Panther Mastery"..GREY..". accept "..ORNG.."Panther Mastery "..GREY.."("..BLUE.."Bhag'thera"..GREY..") but don't do it now.";
 		GREY.."30) "..GREN.."Hearth "..GREY.."to ".._RED.."BB"..GREY..", turn in "..ORNG.."Singing Blue Shards"..GREY..", "..ORNG.."Hostile Takeover"..GREY..", "..ORNG.."Bloodscalp Ears"..GREY..", "..ORNG.."Investigate the Camp";
 		GREY.."31) Turn in "..ORNG.."Goblin Sponsorship part4"..GREY..". Accept "..ORNG.."Goblin Sponsorship part5.";
-		GREY.."32) Fly to ".._RED.."Grom'gol"..GREY..", turn in all quests: "..ORNG.."The Defense of Grom'gol"..GREY..", "..ORNG.."An Unusual Patron"..GREY..",";
+		GREY.."32) Fly to ".._RED.."Grom'gol"..GREY..", turn in all quests: "..ORNG.."The Defense of Grom'gol"..GREY..",";
 		ORNG.."Mok'thardin's Enchantment"..GREY..", "..ORNG.."Headhunting"..GREY..", "..ORNG.."Bloody Bone Necklaces "..GREY.."and "..ORNG.."The Vile Reef"..GREY..".";
 		GREY.."33) Should be "..PURP.."level 36 "..GREY.."now, if not, grind to it. Then get new hunter spells/abilities.";
 		GREY.."34) Get on the zeppelin to go to the ".._RED.."Undercity"..GREY..".";
