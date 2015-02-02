@@ -1414,7 +1414,7 @@ AtlasLVL = {
 		GREY.."05) Once at ".._RED.."XRs "..GREY.."(at 52.30) turn in "..ORNG.."Crossroads Conscription "..GREY.."Then accept all quests in ".._RED.."XRs "..GREY.."which includes:"; 
 		ORNG.."Meats to Orgrimmar"..GREY..", "..ORNG.."Plainstrider Menace"..GREY..", "..ORNG.."The Forgotten Pools"..GREY..", "..ORNG.."Raptor Thieves"..GREY..", "..ORNG.."Wharfmaster Dizzywig"..GREY..",";
 		ORNG.."Fungal Spores"..GREY..", "..ORNG.."Disrupt the Attacks"..GREY..", "..ORNG.."Supplies for the Crossroads "..GREY.."and "..ORNG.."Harpy Raiders"..GREY.."."; 
-		GREY.."Turn in "..ORNG.."Meats to Orgrimmar "..GREY.."I SKIP "..ORNG.."Ride to Orgrimmar"..GREY..".";
+		GREY.."Turn in "..ORNG.."Meats to Orgrimmar "..GREY.."Accept, "..ORNG.."Ride to Orgrimmar"..GREY..".";
 		GREY.."06) Make ".._RED.."XRs "..GREY.."your home.";
 		GREY.."07) Get "..GREN.."FP (Flight Path)"..GREY..".";
 		GREY.."08) Then go do:  "..ORNG.."Disrupt the Attacks "..GREY.."along with "..ORNG.."Plainstrider Menace "..GREY.."and "..ORNG.."Raptor Thieves "..GREY.."(all around 54.26)."; 
@@ -1536,8 +1536,8 @@ AtlasLVL = {
 		GREY.."which starts "..ORNG.."Lakota'mani"..GREY..".  Turn this in at ".._RED.."CT "..GREY.."when you get the chance.";
 		GREY.."15) Once you are at least 5 bars away from "..PURP.." Level 20"..GREY..", run to ".._RED.."XRs"..GREY..".";
 		GREY.."16) Turn in "..ORNG.."Stolen Silver"..GREY..", "..ORNG.."Consumed by Hatred"..GREY..", "..ORNG.."Altered Beings "..GREY.."and "..ORNG.."The Angry Scytheclaws "..GREY.."accept all new";
-		GREY.."quests.  SKIP "..ORNG.."Mura Runetotem"..GREY..".  You should be "..PURP.."lvl 20 "..GREY.."now.";
-		GREY.."17) Fly to ".._RED.."Orgrimmar"..GREY..", get new spells/abilities.";
+		GREY.."quests.  SKIP "..ORNG.."Mura Runetotem"..GREY..", "..ORNG.."Hamuul Runetotem"..GREY..". You should be "..PURP.."lvl 20 "..GREY.."now.";
+		GREY.."17) Fly to ".._RED.."Orgrimmar"..GREY..", get new spells/abilities. Turn in "..ORNG.."Ride to Orgrimmar"..GREY.." do the rest of this chain.";
 		GREY.."18) Grab "..ORNG.."The Ashenvale Hunt "..GREY.."quest.";
 		GREY.."19) "..GREN.."Hearth "..GREY.."back to ".._RED.."XRs"..GREY..".";
 		GREY.."20) Fly to ".._RED.."Ratchet"..GREY..".";
@@ -1551,7 +1551,7 @@ AtlasLVL = {
 		ZoneName = "16-20 (Part 4)";
 		Location = "Barrens";
 		GREY.."24) Then once "..ORNG.."The Guns of Northwatch "..GREY.."is done, do:";
-		GREY.."25) "..ORNG.."Free From the Hold "..GREY.."(escort quest).";
+		GREY.."25) "..ORNG.."Free From the Hold "..GREY.."(escort quest).".._RED.."Not worth the time or exp(Make sure you Grind During)";
 		GREY.."26) Turn in both quests at ".._RED.."Ratchet"..GREY..", then.";
 		GREY.."27) "..GREN.."Hearth "..GREY.."to ".._RED.."XRs"..GREY..". (if "..GREN.."hearth stone "..GREY.."is still on a cooldown, fly to ".._RED.."XRs"..GREY..").";
 		GREY.."28) Run west into ".._RED.."Stonetalon Mountains"..GREY..".";
@@ -1868,7 +1868,7 @@ AtlasLV = {
 		GREY.."11) Accept:";
 		GREY.."12) "..ORNG.."Goblin Sponsorship";
 		GREY.."13) "..ORNG.."Martek the Exiled";
-		GREY.."14) "..ORNG.."Encrusted Tail Fins";
+		GREY.."14) "..ORNG.."Encrusted Tail Fins".._RED.."(Only if you have a good group)";
 		GREY.."15) You may or may not be "..PURP.."level 32 "..GREY.."right now, if not that's okay.";
 		GREY.."16) Go south into ".._RED.."Tanaris "..GREY.."to get "..GREN.."FP "..GREY.."in ".._RED.."Gadgetzan "..GREY.."at 51.25";
 		GREY.."17) "..GREN.."Hearth "..GREY.."to ".._RED.."Orgrimmar"..GREY..".";
@@ -1950,7 +1950,7 @@ AtlasLV = {
 
 	d3 = {
 		ZoneName = "32-34 (Part 3)";
-		Location = "Desolace";
+		Location = "Dust Wallowmarsh";
 
 		GREY.."54) Fly to ".._RED.."CT "..GREY.."(In the ".._RED.."Barrens"..GREY.."). (the flight master is on the docks in ".._RED.."Shadowprey Village"..GREY..")";
 		GREY.."55) Once at ".._RED.."CT"..GREY..", run south-east into ".._RED.."Dust Wallowmarsh "..GREY.."(51.79 in the ".._RED.."Barrens"..GREY..").";
@@ -1960,7 +1960,7 @@ AtlasLV = {
 		GREY.."59) "..GREN.."The Black Shield "..GREY.."(on top of the fireplace)";
 		GREY.."60) Now run to ".._RED.."Brackenwall Village "..GREY.."(35.29)";
 		GREY.."61) Turn those 3 quests in ("..ORNG.."Suspicious Hoofprints"..GREY..", "..ORNG.."Lieutenant Paval Reethe"..GREY.." and "..ORNG.."The Black Shield"..GREY..")."; 
-		GREY.."Accept and then turn in "..ORNG.."The Black Shield Part2"..GREY..". Skip "..ORNG.."The Black Shield Part3 "..GREY.."for now.";
+		GREY.."Accept and then turn in "..ORNG.."The Black Shield Part2"..GREY..". Accept "..ORNG.."The Black Shield Part3.";
 		GREY.."62) Stop at the "..BLUE.."troll vendor"..GREY..", buy the "..GREN.."3 first aid books"..GREY..".";
 		GREY.."63) Fly to ".._RED.."Ratchet "..GREY.."to turn in "..ORNG.."Goblin Sponsorship "..GREY.."& "..ORNG.."Wharfmaster Dizzywig"..GREY..". Accept"; 
 		ORNG.."Goblin Sponsorship Part2 "..GREY.."and "..ORNG.."Parts for Kravel"..GREY..".";
@@ -1978,7 +1978,7 @@ AtlasLV = {
 		GREY.."03) Then do the following:";
 		GREY.."04) Fly to ".._RED.."Grom'gol"..GREY..". Your Questlog Might get overfilled here, run some then pick up the rest.";
 		GREY.."05) Grab ALL quests in ".._RED.."grom'gol"..GREY..": "..ORNG.."The Defense of Grom'gol"..GREY..", "..ORNG.."Mok'thardin's Enchantment"..GREY..",";
-		ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane"..GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
+		ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane".._RED.."(Get this Later)".._GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
 		_RED.."06) Get new hunter spells/abilities.";
 		_RED.."07) "..GREY.."go tame a "..BLUE.."Stranglethorn Tiger "..GREY.."to get *Dash rank 1*";
 		_RED.."08) "..GREY.."then, this is the main pet i use for the rest of the game.";
@@ -2005,7 +2005,8 @@ AtlasLV = {
 		GREY.."20) Should be "..PURP.."lvl 35 "..GREY.."now, either way buy "..PURP.."lvl 35 "..GREN.."food/water/repair "..GREY.."(so that you are prepared for when";
 		GREY.."you do turn "..PURP.."level 35"..GREY.."), then go do in the following order:";
 		GREY.."21) "..ORNG.."Headhunting "..GREY.."along with finishing up "..ORNG.."Bloody Bone Necklaces "..GREY.."(21.14)";
-		GREY.."23) "..ORNG.."The Vile Reef "..GREY.."along with "..ORNG.."Encrusted Tail Fins "..GREY.."(24.24) Use a "..GREN.."breath potion "..GREY.."if you can.";
+		GREY.."23) "..ORNG.."The Vile Reef "..GREY.."along with "..ORNG.."Encrusted Tail Fins ".._RED.."*"..GREY.."(24.24) Use a "..GREN.."breath potion "..GREY.."if you can.";
+		GREN.."NOTE: You Will Need help with both of those.";
 		GREY.."24) Then go to ".._RED.."Nesingwary's Expedition "..GREY.."(35.10). turn in ALL quests, accept all new ones"; 
 		GREY.."(except "..ORNG.."The Green Hills of Stranglethorn"..GREY..").  Then go do:";
 		GREY.."25) "..ORNG.."Tiger Mastery "..GREY.."("..BLUE.."Sin'Dall"..GREY..")  (he is usually on top of the hill at 31.17).  Once that is done, go";
@@ -2021,7 +2022,7 @@ AtlasLV = {
 		GREY.."33) Should be "..PURP.."level 36 "..GREY.."now, if not, grind to it. Then get new hunter spells/abilities.";
 		GREY.."34) Get on the zeppelin to go to the ".._RED.."Undercity"..GREY..".";
 		GREY.."35) Once in the ".._RED.."UC"..GREY..", turn in "..GREN.."60 Silk Cloth "..GREY.."for "..ORNG.."A Donation of Silk "..GREY.."quest (at 71.28).";
-		GREY.."36) Accept "..ORNG.."To Steal From Thieves "..GREY.."(63.49)";
+		GREY.."36) Accept "..ORNG.."To Steal From Thieves "..GREY.."(63.49), "..ORNG.."Crown of Will"..GREY..". (Throne Room)";
 		GREY.."37) Then fly to ".._RED.."Hammerfall"..GREY..".";		
 	};	
 	
@@ -2057,13 +2058,14 @@ AtlasLV = {
 	d7 = {
 		ZoneName = "37-37";
 		Location = "Alterac Mountains";
-		GREY.."01) Once at ".._RED.."TM"..GREY..", accept "..ORNG.."Stone Tokens"..GREY..", "..ORNG.."Prison Break In "..GREY.."and "..ORNG.."Crown of Will";
+		GREY.."01) Once at ".._RED.."TM"..GREY..", accept "..ORNG.."Stone Tokens"..GREY..", "..ORNG.."Prison Break In "..GREY..".";
+		GREY.."Turn in "..ORNG.."Crown of Will"..GREY.." , Accept "..ORNG.."Crown of Will"..GREY.." (Part 2)";
 		GREY.."02) "..ORNG.."Frostmaw "..GREY.."quest (at 37.69 in ".._RED.."Alterac Mountains"..GREY..")";
-		GREY.."03) Then go do: "..ORNG.."Crown of Will "..GREY.."(at ".._RED.."Ruins of Alterac"..GREY..", around 40.50)";
+		GREY.."03) Then go do: "..ORNG.."Crown of Will "..GREY.."(Part 2) (at ".._RED.."Ruins of Alterac"..GREY..", around 40.50)";
 		GREY.."04) Then go do "..ORNG.."Stone Tokens "..GREY.."along with "..ORNG.."Prison Break In "..GREY.."in ".._RED.."Alterac Mountains "..GREY.."(20.85)";
 		GREY.."05) Then run back to ".._RED.."Tarren Mill "..GREY.."and turn in "..ORNG.."Stone Tokens "..GREY.."and "..ORNG.."Prison Break In"..GREY..". SKIP "..ORNG.."Dalaran Patrols"; 
 		GREY.."and "..ORNG.."Bracers of Binding"..GREY..".";
-		GREY.."06) Turn in "..ORNG.."Crown of Will"..GREY..". SKIP "..ORNG.."Crown of Will Part2"..GREY..".";
+		GREY.."06) Turn in "..ORNG.."Crown of Will (Part 2)"..GREY..". SKIP "..ORNG.."Crown of Will Part3"..GREY..".";
 		GREY.."07) Then fly to the ".._RED.."UC"..GREY..".";
 		GREY.."08) Once at ".._RED.."UC"..GREY..", turn in "..ORNG.."To Steal From Thieves"..GREY..".";
 		_RED.."09) "..GREY.."make sure you buy some "..GREN.."fungus food "..GREY.."(food for a turtle you’re about to tame later)";
@@ -2083,7 +2085,7 @@ AtlasLV = {
 		_RED.."04) "..GREY.."go tame a level 34-35 "..BLUE.."turtle "..GREY.."(for Bite Rank5), feed the fungus/fruit/fish to him.";
 		GREY.."05) Stop at the "..BLUE.."goblins "..GREY.."and turn in "..ORNG.."Parts for Kravel"..GREY..". Accept "..ORNG.."Delivery to the Gnomes"..GREY..". turn in";
 		ORNG.."Delivery to the Gnomes"..GREY..". Turn in "..ORNG.."Goblin Sponsorship part3"..GREY..". Accept "..ORNG.."The Eighteenth Pilot"..GREY..". Turn in";
-		ORNG.."The Eighteenth Pilot"..GREY..". Accept "..ORNG.."Razzeric's Tweaking"..GREY..". Turn in "..ORNG.."Encrusted Tail Fins"..GREY..".";
+		ORNG.."The Eighteenth Pilot"..GREY..". Accept "..ORNG.."Razzeric's Tweaking"..GREY..". Turn in "..ORNG.."Encrusted Tail Fins".._RED.."*"..GREY..".";
 		GREY.."06) Accept "..ORNG.."The Rumormonger"..GREY..".";
 		GREY.."07) Do the following quests:";
 		GREY.."08) "..ORNG.."The Swarm Grows "..GREY.."and "..ORNG.."Parts of the Swarm "..GREY.."(quest starts from an item drop) (71.85)";
@@ -2113,6 +2115,7 @@ AtlasLV = {
 		ORNG.."Theramore Spies"..GREY..". Accept "..ORNG.."The Theramore Docks"..GREY..". Turn in "..ORNG.."The Black Shield"..GREY..". Accept "..ORNG.."The Black Shield "..GREY.."again";
 		GREY.."and turn it in.";
 		GREY.."16) Turn in "..ORNG.."Hungry! "..GREY.."(35.38)";
+		GREY.."19) Pick up the "..GREN.."Seaforium Booster"..GREY.."(53,63). For the quest"..ORNG.." Razzeric's Tweaking";
 		_RED.." BE SURE TO GRIND A LOT HERE OR RUN AN INSTANCE TO MAKE UP FOR THE LACK OF XP";
 		_RED.." DO TO THE REMOVED BURNING CRUSADE QUESTS";
 	};	
@@ -2123,15 +2126,13 @@ AtlasLV = {
 		GREY.."23) Go finish up the following quest:";
 		GREY.."24) "..ORNG.."Deadmire "..GREY.."(this "..BLUE.."croc "..GREY.."roams around 47.57)";
 		GREY.."31) Stop back at ".._RED.."Jarl's cabin "..GREY.."(55.25), go to the dirt mound once again to get "..ORNG.."The Severed Head";
-		GREY.."32) Turn in "..ORNG.."Jarl Needs Eyes"..GREY..". Accept "..ORNG.."Jarl Needs a Blade";
-		GREY.."33) Go kill "..BLUE.."Razorspine "..GREY.."(at around 57.19) for the quest "..ORNG.."Jarl Needs a Blade";
-		GREY.."34) Go back and turn in "..ORNG.."Jarl Needs a Blade"..GREY..".";
+		GREY.."32) Turn in "..ORNG.."Jarl Needs Eyes"..GREY..".";
 		GREY.."35) Then go do The ".._RED.."Theramore Docks "..GREY.."the "..GREN.."Captain's Documents "..GREY.."are under the water at (71.51).  Do not"; 
 		GREY.."go through the town, just go around the side of the town and into the water.";
 		GREY.."36) Then "..GREN.."Hearth back to ".._RED.."Brackenwall Village"..GREY..".";
 		GREY.."37) Turn in "..ORNG.."The Theramore Docks "..GREY.."and "..ORNG.."The Severed Head"..GREY..". Accept "..ORNG.."The Troll Witchdoctor"..GREY..".";
 		GREY.."38) Fly to ".._RED.."Thunder Bluff"..GREY..".";
-		GREY.."39) Turn "..ORNG.."Deadmire "..GREY.."in.";
+		GREY.."39) Turn in "..ORNG.."Deadmire "..GREY.."and "..ORNG.."The Black Shield"..GREY.." part3.";
 		GREY.."40) Fly to ".._RED.."Ratchet"..GREY..", turn in "..ORNG.."Stinky's Escape "..GREY.."while you're there.";
 		GREY.."41) Get on the boat to go to ".._RED.."BB"..GREY..".";	
 		_RED.." BE SURE TO GRIND A LOT HERE OR RUN AN INSTANCE TO MAKE UP FOR THE LACK OF XP";
@@ -2303,7 +2304,7 @@ AtlasLVE = {
 		GREY.."08) Go do the following steps (9 - 16) in any order:";
 		GREY.."09) "..ORNG.."Catch a Dragon by the Tail";
 		GREY.."10) "..ORNG.."Identifying the Brood";
-		GREY.."11) "..ORNG.."Razzeric's Tweaking "..GREY.."(there is a box at 54.56)";
+		GREY.."11) ".._RED.."If you didn't do earlier "..ORNG.."Razzeric's Tweaking "..GREY.."(there is a box at 54.56)";
 		GREY.."12) "..ORNG.."Marg Speaks "..GREY.."kill the mobs at around (58.63)";
 		GREY.."13) "..ORNG.."Overlord Mok'Morokk's Concern "..GREY.."("..BLUE.."Snuff"..GREY.."=44.66, "..BLUE.."Grog"..GREY.."=38.65, "..BLUE.."Strongbox"..GREY.."=in the cave at 36.69";
 		GREY.."[the entrance to the cave is at 38.66])";
