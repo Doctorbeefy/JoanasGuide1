@@ -1978,7 +1978,7 @@ AtlasLV = {
 		GREY.."03) Then do the following:";
 		GREY.."04) Fly to ".._RED.."Grom'gol"..GREY..". Your Questlog Might get overfilled here, run some then pick up the rest.";
 		GREY.."05) Grab ALL quests in ".._RED.."grom'gol"..GREY..": "..ORNG.."The Defense of Grom'gol"..GREY..", "..ORNG.."Mok'thardin's Enchantment"..GREY..",";
-		ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane".._RED.."(Get this Later)".._GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
+		ORNG.."Hunt for Yenniku"..GREY..", "..ORNG.."Trollbane".._RED.."(Get this Later)"..GREY..", "..ORNG.."Bloody Bone Necklaces"..GREY..", "..ORNG.."The Vile Reef"..GREY..".";
 		_RED.."06) Get new hunter spells/abilities.";
 		_RED.."07) "..GREY.."go tame a "..BLUE.."Stranglethorn Tiger "..GREY.."to get *Dash rank 1*";
 		_RED.."08) "..GREY.."then, this is the main pet i use for the rest of the game.";
